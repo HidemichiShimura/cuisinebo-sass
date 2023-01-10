@@ -1,0 +1,22 @@
+{
+  "name": "cuisinebo-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HidemichiShimura/cuisinebo-sass.git"
+  },
+  "author": "Hidemichi Shimura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HidemichiShimura/cuisinebo-sass/issues"
+  },
+  "homepage": "https://github.com/HidemichiShimura/cuisinebo-sass#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
