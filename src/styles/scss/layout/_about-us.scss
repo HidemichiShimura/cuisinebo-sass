@@ -1,0 +1,97 @@
+.about-us {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+
+    .about-us-left {
+        width: 40%;
+        position: relative;
+        left: -150px;
+
+        img {
+            width: 100%;
+            opacity: 0.7;
+        }
+    }
+
+    .about-us-right {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 0 50px;
+
+        .main-heading {
+            font-family: "Dancing Script", cursive;
+            font-size: 60px;
+            font-weight: 300;
+            color: $accent-color;
+            margin-bottom: 40px;
+        }
+
+        .sub-heading {
+            font-family: "Josefin Sans", sans-serif;
+            font-size: 30px;
+            font-weight: 300;
+            color: $main-text-color;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .stars {
+            margin: 15px 0;
+
+            .star {
+                color: $accent-color;
+                margin-left: 10px;
+            }
+    
+            .fas {
+                font-weight: 900;
+            }
+
+            .fas {
+                font-family: "Font Awesome 5 Free";
+                -webkit-font-smoothing: antialiased;
+                font-style: normal;
+                font-variant: normal;
+                text-rendering: auto;
+                line-height: 1;
+                display: inline-block;
+            }
+
+            .fa-star-of-life:before {
+                content: "\f621";
+            }
+        }
+
+        .description {
+            font-family: "Josefin Sans", sans-serif;
+            font-size: 14px;
+            font-style: italic;
+            text-align: justify;
+            color: $main-text-color;
+        }
+
+        .main-btn {
+            width: 170px;
+            height: 45px;
+            font-family: "Josefin Sans", sans-serif;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: $accent-color;
+            background-color: transparent;
+            border: 1px solid $accent-color;
+            outline: none;
+            cursor: pointer;
+            transition: all 0.4s;
+
+            &:hover {
+                color: $main-theme-color;
+                background-color: $accent-color;
+            }
+        }
+    }
+}
