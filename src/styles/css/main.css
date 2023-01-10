@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+body {
+  background-color: #262626;
+}
+
 .header {
   width: 100%;
   height: 100vh;
@@ -92,6 +96,91 @@
   transition: all 0.4s;
 }
 .header .header-banner .main-btn:hover {
+  color: #262626;
+  background-color: #d3ab55;
+}
+
+.about-us {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+.about-us .about-us-left {
+  width: 40%;
+  position: relative;
+  left: -150px;
+}
+.about-us .about-us-left img {
+  width: 100%;
+  opacity: 0.7;
+}
+.about-us .about-us-right {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 50px;
+}
+.about-us .about-us-right .main-heading {
+  font-family: "Dancing Script", cursive;
+  font-size: 60px;
+  font-weight: 300;
+  color: #d3ab55;
+  margin-bottom: 40px;
+}
+.about-us .about-us-right .sub-heading {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: #bbb;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.about-us .about-us-right .stars {
+  margin: 15px 0;
+}
+.about-us .about-us-right .stars .star {
+  color: #d3ab55;
+  margin-left: 10px;
+}
+.about-us .about-us-right .stars .fas {
+  font-weight: 900;
+}
+.about-us .about-us-right .stars .fas {
+  font-family: "Font Awesome 5 Free";
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  display: inline-block;
+}
+.about-us .about-us-right .stars .fa-star-of-life:before {
+  content: "\f621";
+}
+.about-us .about-us-right .description {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  text-align: justify;
+  color: #bbb;
+}
+.about-us .about-us-right .main-btn {
+  width: 170px;
+  height: 45px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #d3ab55;
+  background-color: transparent;
+  border: 1px solid #d3ab55;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.about-us .about-us-right .main-btn:hover {
   color: #262626;
   background-color: #d3ab55;
 }/*# sourceMappingURL=main.css.map */
