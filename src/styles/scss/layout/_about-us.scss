@@ -1,3 +1,5 @@
+@import '../abstracts/mixins';
+
 .about-us {
     height: 90vh;
     display: flex;
@@ -75,23 +77,7 @@
         }
 
         .main-btn {
-            width: 170px;
-            height: 45px;
-            font-family: "Josefin Sans", sans-serif;
-            font-size: 14px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            color: $accent-color;
-            background-color: transparent;
-            border: 1px solid $accent-color;
-            outline: none;
-            cursor: pointer;
-            transition: all 0.4s;
-
-            &:hover {
-                color: $main-theme-color;
-                background-color: $accent-color;
-            }
+            @include common-button(170px, 45px, 14px);
         }
     }
 }
